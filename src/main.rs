@@ -82,7 +82,7 @@ impl Metrics {
 
 async fn metrics() -> String {
     let (postgres_client, connection) = tokio_postgres::connect(
-        "host=common-sentry-21-pg1.alakt.kz.prod.bash.kz user=batman password=moped1 dbname=sentry",
+        "host=localhost user=123 password=123 dbname=123",
         NoTls,
     )
     .await
