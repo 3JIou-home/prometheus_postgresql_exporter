@@ -1,0 +1,15 @@
+[package]
+name = "prometheus-postgresql-exporter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio-postgres = "0.7.2"
+postgres-types = {version = "0.2.0", features = ["derive", ]}
+prometheus = "0.13.3"
+tokio = { version="1.20.1", features = ["rt-multi-thread", "macros"] }
+axum = "0.6.4"
+rust_decimal = {version="1.28.0", features=["db-tokio-postgres"]}
+rust_decimal_macros = "1.28.0"

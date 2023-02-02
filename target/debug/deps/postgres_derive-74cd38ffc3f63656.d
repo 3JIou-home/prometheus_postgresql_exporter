@@ -1,0 +1,11 @@
+/home/batman/prometheus-postgresql-exporter/target/debug/deps/libpostgres_derive-74cd38ffc3f63656.so: /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/lib.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/accepts.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/composites.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/enums.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/fromsql.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/overrides.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/tosql.rs
+
+/home/batman/prometheus-postgresql-exporter/target/debug/deps/postgres_derive-74cd38ffc3f63656.d: /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/lib.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/accepts.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/composites.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/enums.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/fromsql.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/overrides.rs /home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/tosql.rs
+
+/home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/lib.rs:
+/home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/accepts.rs:
+/home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/composites.rs:
+/home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/enums.rs:
+/home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/fromsql.rs:
+/home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/overrides.rs:
+/home/batman/.cargo/registry/src/github.com-1ecc6299db9ec823/postgres-derive-0.4.3/src/tosql.rs:
