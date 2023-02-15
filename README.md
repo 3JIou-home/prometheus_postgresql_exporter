@@ -1,7 +1,18 @@
 # prometheus_postgresql_exporter
-Usage:
-
+Build:
+Чтобы запустить программу, сначала необходимо установить необходимые зависимости. Для этого воспользуйтесь менеджером зависимостей Rust - Cargo:
+```shell
 git clone      
-cargo build --release   
-./target/release/prometheus-postgresql-exporter my-postgresql-ho my-database my-user my-password   
+cargo build --release
+```
+Usage:
+После установки зависимостей необходимо запустить программу с помощью следующей команды:
+```shell
+./target/release/postgresql-exporter --host <hostname> --database <dbname> --user <username> --password <password>
+```
+В качестве аргументов необходимо указать имя хоста, название базы данных, имя пользователя и пароль.
+
+Программа запустит HTTP-сервер на порту 8080, который будет предоставлять метрики в формате, который может быть использован с инструментом мониторинга Prometheus. Метрики будут доступны на адресе 
+```shell
 curl localhost:8080/metrics   
+```

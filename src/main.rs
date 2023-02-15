@@ -165,37 +165,37 @@ async fn metrics() -> String {
     for i in common_effectiveness {
         result = result
             + format!(
-                "postgresql.common_effectiveness.seq_scan.{}: {}\n",
+                "postgresql.common_effectiveness.seq_scan.{} {}\n",
                 i.relname, i.seq_scan
             )
             .as_str();
         result = result
             + format!(
-                "postgresql.common_effectiveness.seq_tup_read.{}: {}\n",
+                "postgresql.common_effectiveness.seq_tup_read.{} {}\n",
                 i.relname, i.seq_tup_read
             )
             .as_str();
         result = result
             + format!(
-                "postgresql.common_effectiveness.idx_scan.{}: {}\n",
+                "postgresql.common_effectiveness.idx_scan.{} {}\n",
                 i.relname, i.idx_scan
             )
             .as_str();
         result = result
             + format!(
-                "postgresql.common_effectiveness.vacuum_full_count.{}: {}\n",
+                "postgresql.common_effectiveness.vacuum_full_count.{} {}\n",
                 i.relname, i.vacuum_full_count
             )
             .as_str();
         result = result
             + format!(
-                "postgresql.common_effectiveness.autovacuum_count.{}: {}\n",
+                "postgresql.common_effectiveness.autovacuum_count.{} {}\n",
                 i.relname, i.autovacuum_count
             )
             .as_str();
         result = result
             + format!(
-                "postgresql.common_effectiveness.analyze_count.{}: {}\n",
+                "postgresql.common_effectiveness.analyze_count.{} {}\n",
                 i.relname, i.analyze_count
             )
             .as_str();
@@ -207,7 +207,7 @@ async fn metrics() -> String {
             .as_str();
         result = result
             + format!(
-                "postgresql.common_effectiveness.avg.{}: {}\n",
+                "postgresql.common_effectiveness.avg.{} {}\n",
                 i.relname, i.avg
             )
             .as_str();
@@ -215,29 +215,29 @@ async fn metrics() -> String {
     for i in hit_miss {
         result = result
             + format!(
-                "postgresql.hit_miss.heap_read: {}\n",
+                "postgresql.hit_miss.heap_read {}\n",
                 i.heap_read
             )
             .as_str();
         result = result
             + format!(
-                "postgresql.hit_miss.heap_hit: {}\n",
+                "postgresql.hit_miss.heap_hit {}\n",
                 i.heap_hit
             )
             .as_str();
         result =
-            result + format!("postgresql.hit_miss.ratio: {}\n", i.ratio).as_str();
+            result + format!("postgresql.hit_miss.ratio {}\n", i.ratio).as_str();
     }
     for i in index_usage {
         result = result
             + format!(
-                "postgresql.index_usage.percent_of_times_index_used.{}: {}\n",
+                "postgresql.index_usage.percent_of_times_index_used.{} {}\n",
                 i.relname, i.percent_of_times_index_used
             )
             .as_str();
         result = result
             + format!(
-                "postgresql.index_usage.rows_in_table.{}: {}\n",
+                "postgresql.index_usage.rows_in_table.{} {}\n",
                 i.relname, i.rows_in_table
             )
             .as_str();
